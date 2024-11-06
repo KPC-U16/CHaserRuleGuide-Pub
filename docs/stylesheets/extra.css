@@ -1,0 +1,17 @@
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #946946;
+}
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #946946;
+}
+
+.md-content h2 {
+    border-bottom: var(--md-primary-fg-color) 2px;
+    border-bottom-style: double;
+}
+
+.md-content h3 {
+    border-bottom: gray 1px;
+    border-bottom-style: dashed;
+}
