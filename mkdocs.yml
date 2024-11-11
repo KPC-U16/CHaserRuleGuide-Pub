@@ -9,7 +9,9 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.footer
+    - navigation.top
     - toc.integrate
+    - header.autohide
 
   font:
     text: Kosugi Maru
@@ -19,6 +21,10 @@ theme:
       primary: custom
       toggle:
         icon: material/brightness-7
+
+plugins:
+  search:
+    lang: "ja"
 
 
 markdown_extensions:
