@@ -9,7 +9,9 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.footer
+    - navigation.top
     - toc.integrate
+    - header.autohide
 
   font:
     text: Kosugi Maru
@@ -20,6 +22,10 @@ theme:
       toggle:
         icon: material/brightness-7
 
+plugins:
+  search:
+    lang: "ja"
+
 
 markdown_extensions:
   - admonition
@@ -29,5 +35,5 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
-copyright: "&copy; 2024 oyasumi.ski"
+copyright: "&copy; 2024 U-16プログラミングコンテスト 釧路大会 実行委員会"
 
